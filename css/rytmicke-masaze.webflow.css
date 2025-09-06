@@ -1,3 +1,83 @@
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-BoldItalic.ttf') format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Light.ttf') format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Black.ttf') format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-BlackItalic.ttf') format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-LightItalic.ttf') format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Thin.ttf') format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-ThinItalic.ttf') format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Italic.ttf') format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --dark-slate-grey: #345159;
   --blue: #2e4760;
@@ -4227,9 +4307,19 @@ img {
 }
 
 .img-logo {
-  width: 250px;
-  margin-top: 10px;
-  margin-right: 40px;
+  width: 200px;
+  margin: 20px 20px 10px 10px;
+}
+
+.img-logo-main {
+  text-align: left;
+  vertical-align: baseline;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.div-block-10, .div-block-11 {
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -7156,7 +7246,7 @@ img {
     margin-top: 30px;
   }
 
-  .img-logo {
+  .img-logo, .img-logo-main {
     margin-top: 20px;
   }
 }
